@@ -1,6 +1,6 @@
 /* eslint-disable no-undefined */
 
-export default function type (value: mixed): string {
+export default function type (value: null | void | {constructor: {name: string}}): string {
   if (value === null) {
     return "null"
   }
