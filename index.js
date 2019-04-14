@@ -1,5 +1,5 @@
 /* eslint-disable no-undefined */
-export default function type(value) {
+export default function type (value) {
   if (value === null) {
     return "null";
   }

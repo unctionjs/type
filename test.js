@@ -1,76 +1,76 @@
 /* eslint-disable no-undefined, no-magic-numbers */
-import {test} from "tap"
+import {test} from "tap";
 
-import type from "./index"
+import type from "./index";
 
 test(({same, end}) => {
   same(
     type("a"),
     "String"
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({same, end}) => {
   same(
     type(1),
     "Number"
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({same, end}) => {
   same(
     type({}),
     "Object"
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({same, end}) => {
   same(
     type([]),
     "Array"
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({same, end}) => {
   same(
     type(true),
     "Boolean"
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({same, end}) => {
   same(
     type(false),
     "Boolean"
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({same, end}) => {
   same(
     type(null),
     "null"
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({same, end}) => {
   same(
     type(undefined),
     "undefined"
-  )
+  );
 
-  end()
-})
+  end();
+});
