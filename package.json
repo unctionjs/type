@@ -1,6 +1,6 @@
 {
   "name": "@unction/type",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Returns the type name of the value provided.",
   "keywords": [
     "unction",
