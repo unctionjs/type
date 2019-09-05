@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> null | void | {constructor: {name: string}} => string
+> (null | void | {constructor: {name: string}}) => string
 
 Returns the type name of the value provided.
 

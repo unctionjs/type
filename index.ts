@@ -1,5 +1,5 @@
 /* eslint-disable no-undefined */
-export default function type (value) {
+export default function type (value: null | undefined | {constructor: {name: string}}): string {
   if (value === null) {
     return "null";
   }
