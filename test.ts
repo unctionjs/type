@@ -1,34 +1,34 @@
 /* eslint-disable no-undefined, no-magic-numbers */
 import type from "./index";
 
-test(() => {
+test("works", () => {
   expect(type("a")).toEqual("String");
 });
 
-test(() => {
+test("works", () => {
   expect(type(1)).toEqual("Number");
 });
 
-test(() => {
+test("works", () => {
   expect(type({})).toEqual("Object");
 });
 
-test(() => {
+test("works", () => {
   expect(type([])).toEqual("Array");
 });
 
-test(() => {
+test("works", () => {
   expect(type(true)).toEqual("Boolean");
 });
 
-test(() => {
+test("works", () => {
   expect(type(false)).toEqual("Boolean");
 });
 
-test(() => {
+test("works", () => {
   expect(type(null)).toEqual("null");
 });
 
-test(() => {
+test("works", () => {
   expect(type(undefined)).toEqual("undefined");
 });
