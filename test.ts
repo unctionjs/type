@@ -1,5 +1,5 @@
 /* eslint-disable no-undefined, no-magic-numbers */
-import type from "./index.ts";
+import type from "./index";
 
 test(() => {
   expect(type("a")).toEqual("String");
