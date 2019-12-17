@@ -1,6 +1,6 @@
 {
   "name": "@unction/type",
-  "version": "5.0.2",
+  "version": "5.0.3",
   "description": "Returns the type name of the value provided.",
   "keywords": [
     "unction",
@@ -58,8 +58,7 @@
     "browser.js",
     "types/*.d.ts"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "module": "module.js",
   "browser": "browser.js",
   "types": "types.d.ts",
